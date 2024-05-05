@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARCIAL2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body >
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+    <style>
+      body{
+        background-color: rgba(255, 255, 255, 0.881);
+      }
+    </style>
+    <style>
+      .Colorfondo{
+        background-color: rgba(255, 255, 255, 0.836);
+      }
+    </style>
+    <style>
+      .centrar{
+        text-align: center;
+      }
+    </style>
+ <style>
+</style>
+<style>
+  .colornaranja{
+    color: rgb(6, 6, 6);
+  }
+</style>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Tecnologias Api</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="Microservicios.html">Microservicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Desarrollo web api.html">Desarrollo de una web api</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contenedores.html">Manejo de contenedores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Desarrollo_nube.html">Desarrollo de aplicaciones para la nube</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Tecnologias desarrollo asp.net.html"> Tecnologías para desarrollo de aplicaciones web en 
+            ASP.NET</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+  
+
+   <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="mb-4 centrar">TECNOLOGIAS WEB APIS</h2>
+        <div class="card mb-3">
+          <div class="card-body Colorfondo justificado">
+            <h5 class="card-title centrar"><B>¿QUÉ ES UNA API?</B></h5>
+            <p class="card-text justificado">
+                Una API (interfaz de programación de aplicaciones), es un conjunto de 
+                reglas definidas que permiten que diferentes aplicaciones se comuniquen 
+                entre sí. Actúa como una capa intermedia que procesa las transferencias 
+                de datos entre sistemas, permitiendo a las empresas abrir sus datos y 
+                funcionalidades de aplicaciones a desarrolladores externos, socios 
+                comerciales y departamentos internos dentro de sus empresas.</p>
+
+            <h5 class="card-title centrar"><b>URI</b></h5>
+            <p class="card-text justificado">
+                Identificador de recursos uniforme, es una cadena de caracteres que se utiliza para 
+                identificar recurso en la web de manera única. <br>
+            </p>
+            <h7>Existen dos tipos de URI</h7>
+            <p>
+                <b>URL:</b>identifica un recurso indicando donde esta y como alcanzarlo. <br>
+                <b>URN:</b>identifica un recurso mediante su nombre.
+            </p>
+            <h5 class="card-title"> Clasificacion de los codigos de estado:</h5>
+            <ol>
+              <li>xx Respuesta infomativa</li>
+              <li>xx Respuesta de Exito</li>
+              <li>xx Redirecciones</li>
+              <li>xx Errores de cliente</li>
+              <li>xx Errores de servidor</li>
+            </ol>
+            <h6>DOCUMENTROOT</h6>
+            <p>Es un parámetro del servidor web y el documento indicie del servidor web también 
+              es un parámetro que se puede configurar normalmente ese documento se llama 
+              index.hr.</p>
+            <h5 class="card-title centrar"><b>¿QUÉ ES EL HTTP?</b></h5>
+            <p>Significa Protocolo de Transferencia de Hipertexto (Hypertext Transfer 
+              Protocol) es el lenguaje estándar utilizado para crear y diseñar páginas web. Es un lenguaje de marcado que define la estructura y el contenido de una página web mediante el uso de elementos y etiquetas. HTML permite a los desarrolladores web organizar y presentar información en un formato que puede ser interpretado por los navegadores web..</p>
+            <h5 class="card-title centrar"><b>METODOS DE HTTP</b></h5>
+              <ul>
+                <li><B>GET:</B>Solicita una representación del recurso especificado. Solo debe recuperar datos y no debe tener ningún otro efecto.</li>
+                <li><B>POST:</B>Envía datos al servidor para ser procesados. Los datos se incluyen en el cuerpo del mensaje. Se utiliza para enviar información para ser procesada por un recurso identificado por la URL.</li>
+                <li><B>PUT:</B>Reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la solicitud.</li>
+                <li><B>DELETE:</B>Elimina el recurso especificado.</li>
+                <li><B>PATCH:</B>Aplica modificaciones parciales a un recurso.</li>
+                <li><B>HEAD:</B>Solicita una respuesta similar a GET, pero sin el cuerpo de la respuesta. Se utiliza para obtener metadatos sobre el recurso sin solicitar el cuerpo de la respuesta.                </li>
+                <li><B>OPTIONS:</B>Utilizado para describir las opciones de comunicación para el recurso de destino.                </li>
+                <li><B>TRACE:</B>Realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.</li>
+              </ul>
+            <h5 class="card-title centrar"><b>SOAP</b></h5>
+            <p>Protocolo que Permite que
+                aplicaciones en diferentes
+                plataformas se comuniquen entre sí
+                de manera independiente del
+                lenguaje de programación y el
+                sistema operativo utilizados.</p>
+            <h6>Ventajas:</h6>
+              <ol>
+                <li>
+                 <b>Legibilidad:</b> Debido a su formato
+                  XML, facilita la depuración y el
+                  monitoreo.
+
+                </li>
+                <li>
+                 <b>Amplia Adopcion:</b>es ampliamente
+                  adoptado en la industria y es
+                  compatible con numerosas
+                  tecnologías y plataformas.
+                </li>
+              </ol>
+                
+            <h6>Desventajas:</h6>
+              <ol>
+                <li>
+                 <b>Complejidad:</b>Su flexibilidad puede llevar a
+                  una mayor complejidad en la
+                  implementación y la comprensión.
+                </li>
+                <li>
+                  <b>Overhead:</b>El formato XML agregar
+                  sobrecarga en términos de tamaño de
+                  mensaje y procesamiento, lo que puede hacer
+                  que SOAP sea menos eficiente.
+                </li>
+              </ol>
+            <h6>Beneficios:</h6>
+              <ol>
+                <li>
+                  <b>Seguridad:</b> Implementa las medidas
+                  de seguridad sólidas, como SSL/TLS, para 
+                  garantizar la confidencialidad y la
+                  autenticación de los datos.
+                </li>
+                <li>
+                 <b>Robustez:</b>  estructura basada en XML
+                  lo hace resistente a cambios en la
+                  plataforma y el lenguaje de
+                  programación.
+                </li>
+              </ol>
+            <h5 class="card-title centrar"><b>¿QUÉ ES UN API REST?</b></h5>
+            <p>
+              Una API REST es una API que se ajusta a los principios de diseño de REST, o el estilo de
+              arquitectura de transferencia de estado representacional. Por esta razón, las API REST a
+              veces se denominan API RESTful.
+              REST proporciona un nivel relativamente alto de flexibilidad y libertad para los
+              desarrolladores. Esta flexibilidad es solo una de las razones por las que las API REST han
+              surgido como un método común para conectar componentes y aplicaciones en una
+              arquitectura de microservicios.
+
+            </p>
+            <h6>Principios de diseño de REST</h6>
+            <OL>
+              <li><b>Interfaz uniforme.</b> Todas las solicitudes de API para el mismo recurso deben tener el
+                mismo aspecto, sin importar de dónde provenga la solicitud. La API REST debe
+                garantizar que el mismo dato, como el nombre o la dirección de correo electrónico de
+                un usuario, pertenezca a un solo identificador uniforme de recursos (URI).</li>
+              <li><b>Desacoplamiento cliente-servidor.</b> En el diseño de API REST, las aplicaciones de
+                cliente y servidor deben ser completamente independientes entre sí. La única
+                información que debe conocer la aplicación del cliente es el URI del recurso
+                solicitado; no puede interactuar con la aplicación del servidor de ninguna otra
+                manera.</li>
+              <li><b>Sin estado.</b> Las API REST no tienen estado, lo que significa que cada solicitud debe
+                incluir toda la información necesaria para procesarla.</li>
+              <li><b>Capacidad de caché.</b> Cuando sea posible, los recursos deben almacenarse en la
+                memoria caché en el lado del cliente o del servidor. Las respuestas del servidor
+                también deben contener información sobre si se permite el almacenamiento en caché
+                para el recurso entregado</li>
+              <li><b>Arquitectura del sistema en capas.</b> En las API REST, las llamadas y respuestas pasan
+                por diferentes capas. Como regla general, no asuma que las aplicaciones cliente y
+                servidor se conectan directamente entre sí.</li>
+              <li><b>Código bajo demanda.</b> Las API REST generalmente envían recursos
+                estáticos, pero en ciertos casos, las respuestas también pueden contener código
+                ejecutable (como los subprogramas de Java).</li>
+            </OL>
+
+            <h5 class="card-title centrar"><b>JWT</b></h5>
+            <p>
+              Significa "JSON Web Token". Es un estándar abierto (RFC 7519) que define un formato compacto y autónomo para la transmisión segura de información entre dos partes como un objeto JSON. Este token se utiliza comúnmente para autenticar usuarios y 
+              compartir información entre un cliente y un servidor de forma segura. Un JWT consta de tres partes separadas por puntos: el encabezado, la carga útil y la firma.
+
+              Un JWT consta de tres partes separadas por puntos: el encabezado, la carga útil y la firma. El encabezado contiene el tipo de token y el algoritmo de firma utilizado, la carga útil contiene la información que se desea transmitir y la firma se utiliza para verificar que el mensaje 
+              no ha sido modificado en el camino. Los JWT son ampliamente utilizados en aplicaciones web y servicios API como una forma de autenticación y autorización.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body Colorfondo justificado">
+            <h5 class="card-title"></h5>
+            <!-- Aquí podrían ir widgets como un formulario de suscripción, enlaces a categorías, etc. -->
+            <h5 class="colornaranja centrar"><b>ÍNDICE</b></h5>
+            <br>
+            <ol>
+              <li ><b>¿Qué es un API?</b></li>
+              <li ><b>¿Qué es un URI?</b></li>
+              <li ><b>Clasificacion de los codigos de estado y DOCUMENTROOT</b></li>
+              <li ><b>HTTP</b></li>
+              <li ><b>SOAP, Ventajas y Beneficios</b></li>
+              <li ><b>¿Qué es un API REST?</b></li>
+              <li ><b>JWT</b></li>
+
+            </ol>
+           
+
+            <img src="../Imagenes/api.jpg" alt="api" class="img-fluid"><br><br><br><br>
+            <img src="../Imagenes/URI.jpg" alt="URI" class="img-fluid"><br><br><br><br>
+            <img src="../Imagenes/Https.jpg" alt="HTTPS" class="img-fluid"><br><br><br><br>
+            <img src="../Imagenes/SOAP.jpg" alt="SOAP" class="img-fluid"><br><br><br><br>
+            <iframe width="380" height="300" src="https://www.youtube.com/embed/VCPluX3VZpU?si=rH26D4qd7UWPgBSe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br><br><br>
+            <img src="../Imagenes/tecnologia.jpg" alt="TECNOLOGIAS" class="img-fluid"><br><br><br><br><br><br><br>
+            <img src="../Imagenes/JWT.jpg" alt="JWT" class="img-fluid"><br><br><br><br>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  
+
+  
+
+
+</body>
+</html>
